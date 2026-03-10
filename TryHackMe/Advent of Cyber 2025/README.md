@@ -14,7 +14,7 @@
 | Day | Title | Category |
 |---|---|---|
 | Day 01 | [Shells Bells](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2001/Linux%20CLI%20-%20Shells%20Bells.md) | Linux CLI/Log Analysis |
-| Day 02 | [Merry Clickmas](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2002/Phishing%20-%20Merry%20Clickmas.md) | Phishing |
+| Day 02 | [Merry Clickmas](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2002/Phishing%20-%20Merry%20Clickmas.md) | Phishing/SEToolkit |
 | Day 03 | [Did you SIEM?](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2003/Splunk%20Basics%20-%20Did%20you%20SIEM.md) | Splunk/Log Analysis |
 | Day 04 | [old sAInt nick](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2004/AI%20in%20Security%20-%20old%20sAInt%20nick.md) | AI in Security |
 | Day 05 | [Santa's Little IDOR](https://github.com/thelogansmith/CTFs/blob/main/TryHackMe/Advent%20of%20Cyber%202025/Day%2005/IDOR%20-%20Santa's%20Little%20IDOR.md) | IDOR/Web |
