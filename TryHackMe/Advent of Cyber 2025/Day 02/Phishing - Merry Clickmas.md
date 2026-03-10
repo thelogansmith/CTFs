@@ -38,7 +38,7 @@ This room requires both the **Target VM** and the **AttackBox** to be running si
 
 ### Task 1 — Host the Fake Login Page
 
-Before sending any email, the red team needs a convincing trap. The objective is credential theft, so the trap is a fake TBFC portal login page that captures whatever username and password the victim submits.
+Navigate to directory where the python script to host the fake TBFC portal login page is and start the server.
 
 ```bash
 cd ~/Rooms/AoC2025/Day02
@@ -61,13 +61,13 @@ http://127.0.0.1:8000
 http://ATTACKER_IP:8000
 ```
 
-The page renders as a realistic TBFC portal login form. This is what the victim will see when they click the phishing link — it's designed to be indistinguishable from the legitimate portal at a glance.
+The page renders as a realistic TBFC portal login form.
 
 ---
 
 ### Task 2 — Craft and Send the Phishing Email with SET
 
-Now that the spoofed login page is live, I will craft and send a phishing email with SET.
+Now that the spoofed login page is live, craft and send a phishing email with SET.
 
 **Launch SET:**
 
@@ -162,14 +162,10 @@ Log in with the harvested credentials:
 - **Username:** `factory`
 - **Password:** `unranked-wisdom-anthem`
 
-Access is granted — the same password works on the email system. Browse the `factory` user's inbox for emails containing operational data about toy delivery schedules.
-
-One email in the inbox reveals the total number of toys expected for delivery.
+Access is granted. Browse the `factory` user's inbox for emails containing operational data about toy delivery schedules.
 
 **Q: What is the total number of toys expected for delivery?**  
 **A: `1984000`**
-
-> **Real-world relevance:** Password reuse is one of the most reliably exploited weaknesses in post-phishing lateral movement. Once an attacker has a single credential, it's routine to test it against every other accessible service — webmail, VPN, HR portals, cloud platforms. This technique is called **credential stuffing** when performed at scale against leaked databases. The defense is simple in principle but hard in practice: a password manager enforcing unique credentials per service.
 
 ---
 
