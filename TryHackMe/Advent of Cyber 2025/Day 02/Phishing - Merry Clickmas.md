@@ -138,14 +138,12 @@ After SET sends the email, return to the terminal running `server.py` and wait. 
 
 When they submit credentials on the fake login page, the server captures them and prints them to the terminal:
 
-```
-[CREDENTIAL CAPTURED]
-Username: factory
+<details>
+<summary> [CREDENTIAL CAPTURED] (click) </summary>
+Username: factory </br>
 Password: unranked-wisdom-anthem
-```
+</details>
 
-**Q: What is the password used to access the TBFC portal?**  
-**A: `unranked-wisdom-anthem`**
 
 ---
 
@@ -159,13 +157,13 @@ http://10.64.159.113
 
 Log in with the harvested credentials:
 
-- **Username:** `factory`
-- **Password:** `unranked-wisdom-anthem`
+<details>
+<summary> [CREDENTIAL CAPTURED] (click) </summary>
+Username: factory </br>
+Password: unranked-wisdom-anthem
+</details>
 
-Access is granted. Browse the `factory` user's inbox for emails containing operational data about toy delivery schedules.
-
-**Q: What is the total number of toys expected for delivery?**  
-**A: `1984000`**
+Access is granted. Browse the user's inbox for emails containing operational data about toy delivery schedules.
 
 ---
 
@@ -193,10 +191,15 @@ Dissecting the phishing campaign reveals how each element addressed a potential 
 
 ## Answer Summary
 
+<details>
+  <summary>Spoiler - click to reveal</summary>
+  
 | # | Question | Answer |
 |---|---|---|
 | 1 | What is the password used to access the TBFC portal? | `unranked-wisdom-anthem` |
 | 2 | What is the total number of toys expected for delivery? | `1984000` |
+
+</details>
 
 ---
 
