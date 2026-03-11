@@ -59,9 +59,6 @@ As a precaution, I'll also hide the guide from plain view.
 
 McSkidy left a note before disappearing. She mentions hiding a guide and references "Eggsploits" on the servers. The `Guides` directory visible in `ls` output is the next target.
 
-**Q: Which CLI command would you use to list a directory?**  
-**A: `ls`**
-
 ---
 
 ### Task 2 — Navigating the Filesystem: `cd` and Hidden Files
@@ -97,9 +94,6 @@ Look for eggs that want to hide, check their shells for what's inside!
 
 McSkidy's guide directly points to `/var/log/`.
 
-**Q: What flag did you see inside of McSkidy's guide?**  
-**A: `THM{learning-linux-cli}`**
-
 ---
 
 ### Task 3 — Log Analysis with `grep`
@@ -118,9 +112,6 @@ grep "Failed password" auth.log
 ```
 
 Multiple failed login attempts against the `socmas` account, all originating from `eggbox-196.hopsec.thm`.. This pattern is consistent with a **brute-force attack** targeting the SOC-mas platform.
-
-**Q: Which command helped you filter the logs for failed logins?**  
-**A: `grep`**
 
 ---
 
@@ -167,9 +158,6 @@ mv eastmas.txt wishlist.txt && echo "EASTMAS is invading!"
 
 The script exfiltrates the contents of `wishlist.txt` by dumping it to `/tmp/dump.txt`, deletes the original wishlist, and replaces it with a counterfeit `eastmas.txt` file.
 
-**Q: What flag did you see inside the Eggstrike script?**  
-**A: `THM{sir-carrotbane-attacks}`**
-
 ---
 
 ### Task 5 — Privilege Escalation and Bash History Forensics
@@ -214,16 +202,13 @@ The history reveals Sir Carrotbane's full post-exploitation chain:
 | `pkill tbfcedr` | Killed the TBFC EDR (Endpoint Detection and Response) process |
 | `cat /etc/shadow` | Attempted to read hashed passwords for cracking |
 
-**Q: Which command would you run to switch to the root user?**  
-**A: `sudo su`**
-
-**Q: What flag did Sir Carrotbane leave in the root bash history?**  
-**A: `THM{until-we-meet-again}`**
-
 ---
 
 ## Answer Summary
 
+<details>
+<summary>Spoiler - click to reveal</summary>
+  
 | # | Question | Answer |
 |---|---|---|
 | 1 | Which CLI command would you use to list a directory? | `ls` |
@@ -232,6 +217,8 @@ The history reveals Sir Carrotbane's full post-exploitation chain:
 | 4 | What flag did you see inside the Eggstrike script? | `THM{sir-carrotbane-attacks}` |
 | 5 | Which command would you run to switch to the root user? | `sudo su` |
 | 6 | What flag did Sir Carrotbane leave in the root bash history? | `THM{until-we-meet-again}` |
+
+</details>
 
 ---
 
