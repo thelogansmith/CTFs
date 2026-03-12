@@ -1,4 +1,4 @@
-# Day 01 — Linux CLI: Shells & Bells
+# Day 01 — Linux CLI: Shells Bells
 
 **Platform:** TryHackMe — Advent of Cyber 2025  
 **Category:** Linux CLI / Log Analysis  
