@@ -28,7 +28,7 @@ This room requires access to the Van SolveIT web interface and a vulnerable targ
 | Field | Value |
 |---|---|
 | AI Assistant URL | `http://10.67.153.91` |
-| Vulnerable App URL | `http://<TARGET_IP>` |
+| Vulnerable App URL | `http://10.67.153.91` |
 | Exploit Language | Python |
 | Vulnerability Type | SQL Injection (SQLi) |
 
